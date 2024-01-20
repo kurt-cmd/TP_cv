@@ -3,26 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+    <title>Notre Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Mon Portfolio</h1>
+        <h1>Notre Portfolio</h1>
     </header>
 
     <section>
         <h2>Curriculum Vitae</h2>
-        <p>Bienvenue sur mon portfolio en ligne. Vous pouvez consulter mon CV en format PDF en cliquant sur le lien ci-dessous :</p>
+        <p>Bienvenue sur notre portfolio en ligne. Vous pouvez consulter l'un des CV en format PDF en cliquant sur le lien ci-dessous :</p>
 
-       
-        <a href="cv.pdf" target="_blank" rel="noopener noreferrer">Voir mon CV (PDF)</a>
+        <div>
+            <label for="cvSelector">Choisir un CV :</label>
+            <select id="cvSelector">
+                <option value="cv1.pdf">CV 1</option>
+                <option value="cv2.pdf">CV 2</option>
+            </select>
+        </div>
+
+        <a href="#" id="viewCvBtn" target="_blank" rel="noopener noreferrer">Voir le CV (PDF)</a>
     </section>
 
     <footer>
-        <p>Contactez-moi : lameriembenmiloud@email.com</p>
+        <p>Contactez-nous : zineb.bl5@outlook.com, lameriembenmiloud@email.com</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>

@@ -3,11 +3,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #332;
+    color: #333;
 }
 
 header {
-    background-color: #333;
+    background-color: #6b2c70; /* Couleur aubergine */
     color: #fff;
     padding: 1em;
     text-align: center;
@@ -15,6 +15,7 @@ header {
 
 h1 {
     margin: 0;
+    font-size: 2.5em;
 }
 
 section {
@@ -22,27 +23,31 @@ section {
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #333;
+    color: #6b2c70; /* Couleur aubergine */
+    border-bottom: 2px solid #6b2c70; /* Couleur aubergine */
+    padding-bottom: 10px;
 }
 
 a {
-    color: #007BFF;
+    color: #6b2c70; /* Couleur aubergine */
     text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #542b61; /* Changement de couleur au survol */
 }
 
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #333;
+    padding: 20px;
+    background-color: #6b2c70; /* Couleur aubergine */
     color: #fff;
 }
 
